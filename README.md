@@ -16,7 +16,9 @@ net install shortlist, all replace ///
 
 ## Syntax
 
-* long2wide , ///
+```stata
+
+ long2wide , ///
 	folder(folder path for dta files) 	///
 	master(master dataset name) 		///
 	outfile(wide output file name) 		///
@@ -28,6 +30,6 @@ net install shortlist, all replace ///
 	dropextranum(real) 			///
 	dropextraname(str)
 
-
+```
 
 
